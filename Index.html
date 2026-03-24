@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IMPERIVM Barbershop</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    background-color: #000;
+    color: #d4af37;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 60px 20px 20px;
+}
+
+header img {
+    width: 300px;
+}
+
+/* TITULOS */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* SECCIONES */
+section {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* SERVICIOS */
+.servicios {
+    border: 1px solid #d4af37;
+    padding: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* PAQUETES */
+.paquetes {
+    text-align: center;
+}
+
+.paquetes h3 {
+    margin-top: 20px;
+}
+
+/* HORARIOS */
+.info {
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* PRODUCTOS */
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.producto {
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp a {
+    background: #d4af37;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #d4af37;
+    margin-top: 40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <!-- CAMBIA ESTA IMAGEN POR TU LOGO -->
+    <img src="logo.png" alt="IMPERIVM Barbershop">
+</header>
+
+<section class="servicios">
+    <h2>SERVICIOS</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>CORTE $240</h3>
+            <p>Lavado inicial y final, asesoría personalizada, peinado y masaje relajante.</p>
+        </div>
+
+        <div class="card">
+            <h3>BARBA $220</h3>
+            <p>Delineado y recorte con protocolo italiano, toallas, aceite, after shave y masaje.</p>
+        </div>
+
+        <div class="card">
+            <h3>AFEITADO $240</h3>
+            <p>Ritual tradicional con toallas calientes, espuma, navaja y masaje.</p>
+        </div>
+
+        <div class="card">
+            <h3>FACIAL $160</h3>
+            <p>Limpieza profunda con mascarilla, toallas calientes y masaje facial.</p>
+        </div>
+
+        <div class="card">
+            <h3>PERFILADO $120</h3>
+            <p>Recorte y limpieza precisa en nariz, orejas y cejas.</p>
+        </div>
+    </div>
+</section>
+
+<section class="paquetes">
+    <h2>PAQUETES</h2>
+
+    <h3>EMPERADOR $420</h3>
+    <p>Corte + arreglo de barba</p>
+
+    <h3>CENTURIÓN $380</h3>
+    <p>Corte + limpieza facial</p>
+
+    <h3>RITUAL IMPERIVM $550</h3>
+    <p>Corte + barba + facial</p>
+
+    <h3>PRETORIANO $360</h3>
+    <p>Barba + facial</p>
+</section>
+
+<section class="info">
+    <h2>HORARIOS</h2>
+    <p>
+        Lunes a Viernes: 12:00 pm – 9:00 pm <br>
+        Sábado: 11:00 am – 8:00 pm <br>
+        Domingo: 12:00 pm – 6:00 pm
+    </p>
+
+    <h2>UBICACIÓN</h2>
+    <p>
+        Nueva Zona Comercial Cosmopol Lifestyle <br>
+        1er Piso · Local 3
+    </p>
+</section>
+  
+<section>
+    <h2>POMADAS PARA CABELLO</h2>
+
+    <div class="productos">
+        <div class="producto">
+            <img src="green150.jpg" alt="">
+            <p>Pomada Green 150 grs - Fijación profesional para estilo duradero.</p>
+        </div>
+
+        <div class="producto">
+            <img src="purple150.jpg" alt="">
+            <p>Pomada Purple 150 grs - Acabado elegante con gran control.</p>
+        </div>
+
+        <div class="producto">
+            <img src="blue150.jpg" alt="">
+            <p>Pomada Blue 150 grs - Brillo y definición para estilos clásicos.</p>
+        </div>
+
+        <div class="producto">
+            <img src="green50.jpg" alt="">
+            <p>Pomada Green 50 grs - Versión compacta ideal para llevar.</p>
+        </div>
+
+        <div class="producto">
+            <img src="purple50.jpg" alt="">
+            <p>Pomada Purple 50 grs - Control y estilo en presentación portátil.</p>
+        </div>
+
+        <div class="producto">
+            <img src="blue50.jpg" alt="">
+            <p>Pomada Blue 50 grs - Acabado brillante en tamaño práctico.</p>
+        </div>
+
+        <div class="producto">
+            <img src="clay120.jpg" alt="">
+            <p>Clay Pomade Hair Mate 120 grs - Acabado mate con fijación fuerte.</p>
+        </div>
+
+        <div class="producto">
+            <img src="clay55.jpg" alt="">
+            <p>Clay Pomade Hair Mate 55 grs - Estilo natural con textura mate.</p>
+        </div>
+    </div>
+</section>
+
+<div class="whatsapp">
+    <a href="https://wa.me/5215532241104" target="_blank">Agendar por WhatsApp</a>
+</div>
+
+<footer>
+    © 2026 IMPERIVM Barbershop
+</footer>
+
+</body>
+</html>
